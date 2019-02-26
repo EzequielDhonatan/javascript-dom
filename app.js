@@ -46,4 +46,8 @@ setTimeout(function () {
     document.querySelectorAll('div')[2].innerHTML = '<p>Inseriu</p>'
     */
 
+    /* ********************** parentNode **************************
+    document.querySelector('li').parentNode.setAttribute('style', 'background: red');
+    */
+
 }, 3000); // MUDA O CONTEÚDO DA PÁGINA DEPOIS DE 3 SEGUNDOS
