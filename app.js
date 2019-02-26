@@ -80,7 +80,7 @@ setTimeout(function () {
 
 }, 3000) // MUDA O CONTEÚDO DA PÁGINA DEPOIS DE 3 SEGUNDOS
 
-/* ********************** scrollTo e scroll(topo e footer) ************************** */
+/* ********************** scrollTo e scroll(topo e footer) **************************
 function footer() {
     var height = document.body.scrollHeight
 
@@ -100,3 +100,4 @@ function topo() {
         behavior: 'smooth'
     })
 }
+*/
