@@ -38,4 +38,8 @@ setTimeout(function () {
     document.getElementsByClassName('test-class')[0].innerHTML = '<h3>Sou o conteúdo através de um identificador por classe</h3>';
     */
 
+    /* ********************** querySelector **************************
+    document.querySelector('div').innerHTML = '<strong>Algo aqui Uhuuu</strong>'
+    */
+
 }, 3000); // MUDA O CONTEÚDO DA PÁGINA DEPOIS DE 3 SEGUNDOS
