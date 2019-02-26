@@ -50,10 +50,24 @@ setTimeout(function () {
     document.querySelector('li').parentNode.setAttribute('style', 'background: red')
     */
 
+    /* ********************** firstElementChild e lastElementChild **************************
     var ul = document.querySelector('ul')
-    // var li = ul.children
-    // li[2].innerHTML = 'Alterei'
-    // console.log(ul.firstElementChild.innerHTML = 'Update')
-    // console.log(ul.lastElementChild.innerHTML = 'Update')
+    var li = ul.children
+    li[2].innerHTML = 'Alterei'
+    console.log(ul.firstElementChild.innerHTML = 'Update')
+    console.log(ul.lastElementChild.innerHTML = 'Update')
+    */
+
+    /* ********************** hasAttribute, getAttribute e setAttribute **************************
+    var div = document.getElementById('test-id')
+    console.log(div.hasAttribute('class'))
+    console.log(div.getAttribute('attr-value'))
+
+    if (div.hasAttribute('attr-value')) {
+        console.log(div.getAttribute('attr-value'))
+    }
+    
+    div.setAttribute('style', 'display: none;')
+    */
 
 }, 3000) // MUDA O CONTEÚDO DA PÁGINA DEPOIS DE 3 SEGUNDOS
