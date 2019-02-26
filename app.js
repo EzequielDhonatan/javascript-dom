@@ -66,8 +66,16 @@ setTimeout(function () {
     if (div.hasAttribute('attr-value')) {
         console.log(div.getAttribute('attr-value'))
     }
-    
+
     div.setAttribute('style', 'display: none;')
+    */
+
+    /* ********************** insertAdjacentHTML **************************
+    var ul = document.querySelector('ul')
+    ul.insertAdjacentHTML('beforebegin', '<hr />')
+    ul.insertAdjacentHTML('afterend', '<hr />')
+    ul.insertAdjacentHTML('afterbegin', '<li>afterbegin</li>')
+    ul.insertAdjacentHTML('beforeend', '<li>afterend</li>')
     */
 
 }, 3000) // MUDA O CONTEÚDO DA PÁGINA DEPOIS DE 3 SEGUNDOS
