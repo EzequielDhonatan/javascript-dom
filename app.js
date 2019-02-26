@@ -42,4 +42,8 @@ setTimeout(function () {
     document.querySelector('div').innerHTML = '<strong>Algo aqui Uhuuu</strong>'
     */
 
+    /* ********************** querySelectorAll **************************
+    document.querySelectorAll('div')[2].innerHTML = '<p>Inseriu</p>'
+    */
+
 }, 3000); // MUDA O CONTEÚDO DA PÁGINA DEPOIS DE 3 SEGUNDOS
