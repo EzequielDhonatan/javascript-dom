@@ -25,4 +25,12 @@ setTimeout(function () {
     // nameTag[0].innerText = 'Alterando o primeiro...'
     // nameTag[1].innerText = 'Alterando o segundo...'
 
+    // var tagsName = document.getElementsByTagName('div');
+    // tagsName[0].innerHTML = '<h4>Mudando 1...</h4>'
+    // tagsName[1].innerHTML = '<h4>Mudando 2...</h4>'
+
+    // if (tagsName[2]) {
+    //     tagsName[2].innerHTML = '<h4>Mudando 3...</h4>'
+    // }
+
 }, 3000); // MUDA O CONTEÚDO DA PÁGINA DEPOIS DE 3 SEGUNDOS
