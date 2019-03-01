@@ -18,3 +18,5 @@ function changeColor (event, color) {
 
     return false;
 }
+
+/* ********************** Eventos do Mouse ************************** */
