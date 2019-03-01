@@ -16,3 +16,19 @@ function setBackground (color) {
     body.style.color = '#FFF';
     body.style.backgroundColor = color;
 };
+
+var piscaPisca = document.getElementsByClassName('pisca-pisca')[0];
+
+// pisca();
+
+function pisca () {
+    piscaPisca.style.backgroundColor = 'red'; 
+
+    setTimeout(pisca2, 1000);
+}
+
+function pisca2 () {
+    piscaPisca.style.backgroundColor = 'blue';
+
+    setTimeout(pisca, 1000);
+}
