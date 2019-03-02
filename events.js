@@ -21,4 +21,20 @@ function changeColor (event, color) {
     return false;
 }
 
-/* ********************** Eventos do Mouse ************************** */
+/* ********************** Eventos de Carregar ************************** */
+function loadPage () {
+    swal('Fez o load!', '', 'success');
+}
+
+function resizePage (event) {
+    var width = window.innerWidth;
+    var body = document.body;
+
+    if (width <= 700) {
+        body.style.background = '#000';
+    } else if (width > 700 && width < 1200) {
+        body.style.background = '#999';
+    } else {
+        body.style.background = '#FFF';
+    }
+}

@@ -5,12 +5,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
-    <body>
+    <body onload="loadPage()" onresize="resizePage(event)">
 
         <h1>Events JS</h1>
 
         <a href="https://google.com/" onclick="changeColor(event, '#666')">Alterar Cor</a>
 
+        <!--
         <ul>
             <li onclick="alert('onclick')">onclick</li>
             <li ondblclick="alert('ondblclick')">ondblclick</li>
@@ -35,6 +36,7 @@
                 <p>Parágrafo</p>
             </li>
         </ul>
+        -->
 
         <!-- sweetalert -->
         <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
