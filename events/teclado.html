@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Eventos de Teclado</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <input type="text" placeholder="Nome:" onkeypress="keyPress(event)">
+        <input type="text" placeholder="Nome:" onkeydown="keyDown(event, 'prm')">
+        <input type="text" placeholder="Nome:" onkeyUp="keyUp(event)">
+        
+        <!-- sweetalert -->
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="teclado.js"></script>
+    </body>
+</html>
