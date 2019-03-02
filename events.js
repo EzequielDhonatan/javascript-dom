@@ -7,6 +7,8 @@ function eventClick () {
  */
 
 function changeColor (event, color) {
+    swal("Sucesso", "Alterou a Cor!", "success");
+
     document.body.style.background = color;
 
     event = event || window.event // IE
